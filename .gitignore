@@ -1,0 +1,17 @@
+# Conda
+.conda/
+*.yml.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data
+matches/
+*.csv
+*.json
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,20 @@
+name: statsbomb-data
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  
+  # Data manipulation
+  - pandas>=2.2.3
+  - numpy>=2.1.3
+  - jsonschema>=4.23.0
+  
+  # StatsBomb specific
+  - pip:
+    - statsbombpy
+
+  
+variables:
+  PYTHONPATH: .
